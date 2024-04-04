@@ -1,0 +1,99 @@
+.container2 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 7px 8%;
+}
+.image-card img {
+  width: 85vw;
+  height: 30vw;
+  object-fit: cover;
+  filter: contrast(130%);
+  border-radius: 13px;
+  /* transform: scaleX(-1); */
+}
+.image-card {
+  margin-top: 3.5vw;
+  margin-bottom: 3.5vw;
+}
+
+.image-card {
+    /* Existing styles... */
+    position: relative; /* Enable positioning of child elements */
+}
+
+.image-card .image-wrapper {
+  position: relative;
+}
+
+.image-card .image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99.1%;
+  border-radius: 13px;
+  background-color: rgba(14, 0, 0, 0.274);
+}
+
+.image-card .image-wrapper img {
+  width: 85vw;
+  height: 30vw;
+  object-fit: cover;
+  filter: contrast(130%);
+  border-radius: 13px;
+}
+
+
+.image-card .content {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-40%);
+  left: 0; /* Align content to the left */
+  width: 100%; /* Stretch content across the card */
+  color: white;
+  padding: 5%;
+  text-align: left; /* Align text to the left */
+}
+
+.image-card h2,
+.image-card p,
+.image-card button {
+  margin: 10px 0; /* Add some spacing between elements */
+}
+
+.image-card button {
+  background-color: #7e1519c9;
+  color: white;
+  width: 8vw;
+  height: 3vw;
+  border: none;
+  border-radius: 9px;
+}
+.Guide-img {
+  display: flex;
+  justify-content: space-between; /* Ensures the images are spaced evenly */
+  align-items: center; /* Aligns the images vertically */
+  padding: 7px 8%;
+}
+
+
+.guide-1{
+  width: 40vw;
+  height: 20vw;
+  margin-right: 50px;
+  border-radius: 13px;
+  margin-bottom: 50px;
+  object-fit: cover;
+}
+.guide-2{
+  width: 40vw;
+  height: 20vw;
+  margin-left: 20px;  
+  border-radius: 13px;
+  margin-bottom: 50px;
+  object-fit: cover;
+}
+
+
