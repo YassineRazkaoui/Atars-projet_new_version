@@ -14,7 +14,7 @@ import Footer from "./Components/Navbar/Footer";
 const App = () => {
   return (
     <div className="container">
-      <Navbar />
+      {/* <Navbar />
       <Box />
       <Search />
       <Category />
@@ -23,7 +23,7 @@ const App = () => {
       <Guide />
       <Announcement2 />
       <Sign />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
