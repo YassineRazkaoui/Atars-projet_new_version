@@ -3,6 +3,7 @@ import "../../Style/About/AppAboutHotel.css";
 import NavbarAbout from "../About/AboutHotel/NavbarAbout";
 import BoxAbout from "../About/AboutHotel/BoxAbout";
 import HotelAbout from "../About/AboutHotel/HotelAbout";
+import DetaileHotel from "./AboutHotel/DetaileHotel";
 
 
 const AboutHotel = () => {
@@ -11,6 +12,7 @@ const AboutHotel = () => {
       <NavbarAbout/>
       <BoxAbout/>
       <HotelAbout/>
+      <DetaileHotel/>
     </div>
   );
 };
