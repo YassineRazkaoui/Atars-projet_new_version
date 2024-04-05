@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../Style/About/BoxAbout.css";
+import "../../../Style/About/AboutHotel/BoxAbout.css";
 
 const Box = () => {
   return (

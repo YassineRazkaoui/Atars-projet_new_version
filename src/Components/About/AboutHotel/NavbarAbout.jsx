@@ -1,7 +1,7 @@
 import React from "react";
-import "../../Style/About/NavbarAbout.css";
-import Logo_earth from "../../assets/earth_langue.png";
-import Logo_Atars from "../../assets/logo_atars.png";
+import "../../../Style/About/AboutHotel/NavbarAbout.css";
+import Logo_earth from "../../../assets/earth_langue.png";
+import Logo_Atars from "../../../assets/logo_atars.png";
 
 const Navbar = () => {
   return (

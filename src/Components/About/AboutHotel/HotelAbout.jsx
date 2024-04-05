@@ -1,9 +1,9 @@
 import React from "react";
-import "../../Style/About/HotelAbout.css";
+import "../../../Style/About/AboutHotel/HotelAbout.css";
 
-import hotelImage from "../../assets/AboutHotel/abouthotel1.jpg";
-import poolImage1 from "../../assets/AboutHotel/abouthotel2.jpg";
-import poolImage2 from "../../assets/AboutHotel/abouthotel3.jpg";
+import hotelImage from "../../../assets/AboutHotel/abouthotel1.jpg";
+import poolImage1 from "../../../assets/AboutHotel/abouthotel2.jpg";
+import poolImage2 from "../../../assets/AboutHotel/abouthotel3.jpg";
 
 const HotelAbout = () => {
   return (
