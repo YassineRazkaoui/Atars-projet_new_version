@@ -15,7 +15,7 @@ import AboutHotel from "./Components/About/AboutHotel";
 const App = () => {
   return (
     <div className="container">
-      {/* <Navbar />
+      <Navbar />
       <Box />
       <Search />
       <Category />
@@ -24,8 +24,8 @@ const App = () => {
       <Guide />
       <Announcement2 />
       <Sign />
-      <Footer /> */}
-      <AboutHotel/>
+      <Footer />
+      {/* <AboutHotel/> */}
     </div>
   );
 };
