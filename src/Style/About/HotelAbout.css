@@ -1,0 +1,31 @@
+.container-collage {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1vw;
+  padding: 7px 8%;
+}
+
+.collage {
+  position: relative;
+  max-width: 90vw;
+  min-height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18vw, 2fr));
+  gap: 20px;
+}
+
+.img-2 img {
+  object-fit: cover;
+  border-radius: 13px;
+  width: 20vw;
+  height: 14.4vw;
+  margin: 4px;
+}
+.img-1 .hotel-image {
+  object-fit: cover;
+  border-radius: 13px;
+  width: 42vw;
+  height: 30vw;
+}

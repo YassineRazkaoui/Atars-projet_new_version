@@ -1,0 +1,28 @@
+.BoxAbout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* padding: 7px 8%; */
+}
+
+.BoxAbout-element ul li a {
+  /* text-decoration: none; */
+  font-family: Arial;
+  font-weight: normal;
+  color: black;
+  padding: 10px;
+}
+
+.BoxAbout-element a {
+  text-decoration: none; /* Remove default underline */
+  color: inherit;
+}
+
+.BoxAbout-element a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #333; /* Change text color on hover (optional) */
+}
+
+.BoxAbout-element a:visited {
+  text-decoration: underline;
+}

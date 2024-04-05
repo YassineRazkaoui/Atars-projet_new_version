@@ -10,6 +10,7 @@ import Announcement2 from "./Components/Navbar/Announcement2";
 import Guide from "./Components/Navbar/Guide";
 import Sign from "./Components/Navbar/Sign";
 import Footer from "./Components/Navbar/Footer";
+import AboutHotel from "./Components/About/AboutHotel";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Announcement2 />
       <Sign />
       <Footer /> */}
+      <AboutHotel/>
     </div>
   );
 };
