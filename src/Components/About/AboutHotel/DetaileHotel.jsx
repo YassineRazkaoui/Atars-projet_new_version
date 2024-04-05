@@ -1,7 +1,9 @@
+import { GiBunkBeds } from "react-icons/gi"; 
+import { MdBathroom } from "react-icons/md"; 
+import { MdBedroomChild } from "react-icons/md"; 
 import React from "react";
 import "../../../Style/About/AboutHotel/DetaileHotel.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBed, faBath, faBedAlt } from "@fortawesome/free-solid-svg-icons"; // Import icons for Bedrooms, Bathrooms, Beds
+
 
 const DetaileHotel = () => {
   return (
@@ -12,17 +14,18 @@ const DetaileHotel = () => {
           <p className="heading-p">Fes Marriott Hotel Jnan Palace</p>
           <div className="details">
             <span className="detail">
-              <FontAwesomeIcon icon={faBed} /> 1 Bedroom
+              <MdBedroomChild size={50}/> 1 Bedroom
             </span>
             <span className="detail">
-              <FontAwesomeIcon icon={faBath} /> 1 Bathroom
+              <MdBathroom size={50}/> 1 Bathroom
             </span>
             <span className="detail">
-              <FontAwesomeIcon icon={faBedAlt} /> 3 Beds
+              <GiBunkBeds size={50}/> 3 Beds
             </span>
           </div>
         </header>
         <div className="content">
+          <h1 className="heading-a">Apartment Description</h1>
           <p className="description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
