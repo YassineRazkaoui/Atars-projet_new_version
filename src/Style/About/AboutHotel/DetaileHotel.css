@@ -6,11 +6,9 @@
 .apartment-description {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
-  width: 600px; /* Adjust width as needed */
-  padding: 2px;
-  font-family: Arial, sans-serif;
-  margin-left: 0; /* Add left margin for spacing */
+   /* Align items to the left */
+  width: 53vw; /* Adjust width as needed */
+  font-family: Arial; /* Add left margin for spacing */
 }
 
 .header {
@@ -38,7 +36,7 @@
 .details {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 100px;
 }
 
 .detail {
@@ -49,18 +47,15 @@
   border-radius: 3px;
 }
 
-.content {
-  text-align: justify;
-}
 
-.heading-a {
+.content .heading-a {
   font-size: 24px;
   font-family: Arial;
   font-weight: bold;
   margin-bottom: 16px; /* Optional: Add space between heading and details */
 }
 
-.description {
+.content .description {
   margin-bottom: 15px;
   color: #3a3a3a;
 }
